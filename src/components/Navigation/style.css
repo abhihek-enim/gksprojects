@@ -1,0 +1,14 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100;
+  margin: 30px 50px 20px 50px;
+}
+.navLogo img {
+  width: 180px;
+  height: "auto";
+}
+
+.menuDropDownItems {
+  font-family: 'Mulish', sans-serif;  
+}

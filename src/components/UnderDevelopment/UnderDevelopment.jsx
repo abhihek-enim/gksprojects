@@ -21,13 +21,11 @@ const UnderDevelopment = () => {
                   src="https://www.youtube.com/embed/gMNl5lgj99w" title="GKS Introduction video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <div className="content">
-        <h1 className="heading">This website is under development and <br /> shall be live shortly. 
-        </h1>
-        <button className='downloadBtn' onClick={handleDownload}>Download Company Profile</button>
-        {/* <p className="description">
-          Connect:
-        </p> */}
+        <span className="heading">This website is under development and <br /> shall be live shortly. 
+        </span>
+
       </div>
+      <button className='downloadBtn' onClick={handleDownload}>Download Company Profile</button>
       <div className="footer">
         <div className="contact-details">
           {/* Phone number with phone icon */}

@@ -21,7 +21,7 @@ const UnderDevelopment = () => {
                   src="https://www.youtube.com/embed/gMNl5lgj99w" title="GKS Introduction video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <div className="content">
-        <h1 className="heading">Our website is under development and shall be live shortly. 
+        <h1 className="heading">This website is under development and shall be live shortly. 
 </h1>
         <p className="description">
           Please reach out to us via the below mentioned means:

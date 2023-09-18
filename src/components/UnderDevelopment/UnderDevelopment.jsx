@@ -3,12 +3,18 @@ import './UnderDevelopment.css'; // Import your CSS file for styling
 import { Logo } from "../../assets/index.js";
 
 const UnderDevelopment = () => {
+  const handleDownload = () => {
+    window.location.href = "https://drive.google.com/file/d/12qdZsQ_0-pTBixK4rBq5dfigVxPaPIa4/view?usp=drivesdk";
+  }
   return (
     <div className="under-development-container">
       <div className="logo-header">
         {/* Logo of the company */}
         <img src={Logo} alt="Company Logo" />
       </div>
+      <p className="aboutGks">
+      GKS Projects and Events (a unit of Girdhari Lal Kedar Nath Singhal Tent Contractors, Agra) is one of India`s oldest and most trusted partners for infrastructure setup. O&M and allied services for events of any shape and nature.
+      </p>
       <div className="youtube-video">
         {/* Embedded YouTube video */}
               <iframe width="100%"
@@ -25,29 +31,29 @@ const UnderDevelopment = () => {
         <div className="contact-details">
           {/* Phone number with phone icon */}
           <div className="contact-item">
-            <i className="fas fa-phone"></i>
+            <i style={{color:'blue'}} className="fas fa-phone"></i>
             <span>93196-63620</span>
           </div>
           {/* Email address with mail icon */}
           <div className="contact-item">
-            <i className="fas fa-envelope"></i>
+            <i style={{color:'rgb(240, 85, 24)'}} className="fas fa-envelope"></i>
             <span>info@gksproject.com</span>
           </div>
           {/* Location with location icon */}
           <div className="contact-item">
-            <i className="fas fa-map-marker-alt"></i>
+            <i style={{color:'orange'}} className="fas fa-map-marker-alt"></i>
             <span>31/231/1-2, Shamshabad Road, Maruti City Turn, Kahrai Mode, Near TV Tower, Taj Ganj Zone, Agra- 282001</span>
           </div>
         </div>
         <div className="social-media">
           {/* Social media icons with links */}
-          <a href="https://www.facebook.com">
+          <a href="https://www.facebook.com/GKSprojectsandevents?mibextid=nW3QTL">
             <i className="fab fa-facebook"></i>
           </a>
-          <a href="https://www.instagram.com">
+          <a href="https://instagram.com/gksprojectsandevents">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="https://www.linkedin.com">
+          <a href="https://www.linkedin.com/company/gksprojectsandevents/">
             <i className="fab fa-linkedin"></i>
           </a>
           <a href="https://www.twitter.com">
@@ -55,7 +61,7 @@ const UnderDevelopment = () => {
           </a>
         </div>
         {/* Download Company Profile button */}
-              <button className='downloadBtn'>Download Company Profile</button>
+              <button className='downloadBtn' onClick={handleDownload}>Download Company Profile</button>
       </div>
     </div>
   );

@@ -11,6 +11,12 @@
         width: 100%;
         
     }
+    .aboutGks{
+      font-size: 1.4rem;
+      font-family: Roboto;
+      font-weight: bold;
+      text-align: justify;
+    }
     .youtube-video {
       /* Set the video height accordingly */
       width: 100%;
@@ -30,11 +36,12 @@
         font-weight: bold;
     }
     .heading{
-        font-size:2.5rem;
+        font-size:1.8rem;
         
     }
     .description{
         font-size: 1.5rem;
+        
     }
     .footer {
       /* Align everything vertically */
@@ -98,7 +105,14 @@
       }
       .under-development-container img{
           width: 100%;
+         
           
+      }
+      .aboutGks{
+        font-size: 1.6rem;
+        font-family: Roboto;
+        font-weight: bold;
+        text-align: justify;
       }
       .youtube-video {
         /* Set the video height accordingly */
@@ -163,12 +177,12 @@
       }
     
      button{
-      padding: 8px 12px;
+      padding: 12px 12px;
       font-size: 1.2rem;
       margin-top: 10%;
       border: 1px solid gray;
       border-radius: 12px;
-      background-color: black;
+      background-color: rgb(39, 39, 243);
       color: white;
       transition: all 0.4s;
     
@@ -176,6 +190,7 @@
      button:hover{
         background-color: white;
         color: black;
+        cursor: pointer;
         /* border: 2px solid black; */
      }
     

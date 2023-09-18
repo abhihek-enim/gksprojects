@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gksprojects/static/css/main.858ca48e.css",
-    "main.js": "/gksprojects/static/js/main.e286dc06.js",
+    "main.css": "/gksprojects/static/css/main.28ddfcb4.css",
+    "main.js": "/gksprojects/static/js/main.f10fbf5e.js",
     "static/media/slider3.png": "/gksprojects/static/media/slider3.ce7a39a5593ae42fa148.png",
     "static/media/slider1.png": "/gksprojects/static/media/slider1.565ea291b2e7f1ed005e.png",
     "static/media/slider2.png": "/gksprojects/static/media/slider2.e5c3b90e5dcfb7689e71.png",
@@ -9,11 +9,11 @@
     "static/media/slider4.png": "/gksprojects/static/media/slider4.5bc345393934aa0480ca.png",
     "static/media/gksLogonew.png": "/gksprojects/static/media/gksLogonew.581a939175159f632cd9.png",
     "index.html": "/gksprojects/index.html",
-    "main.858ca48e.css.map": "/gksprojects/static/css/main.858ca48e.css.map",
-    "main.e286dc06.js.map": "/gksprojects/static/js/main.e286dc06.js.map"
+    "main.28ddfcb4.css.map": "/gksprojects/static/css/main.28ddfcb4.css.map",
+    "main.f10fbf5e.js.map": "/gksprojects/static/js/main.f10fbf5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.858ca48e.css",
-    "static/js/main.e286dc06.js"
+    "static/css/main.28ddfcb4.css",
+    "static/js/main.f10fbf5e.js"
   ]
 }

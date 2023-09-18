@@ -8,20 +8,20 @@
       margin: 10%;
     }
     .under-development-container img{
-        width: 100%;
+        width: 60%;
         
     }
     .aboutGks{
       font-size: 1rem;
       font-family: Roboto;
       font-weight: bold;
-      text-align: justify;
+      text-align: left;
     }
     .youtube-video {
       /* Set the video height accordingly */
       width: 100%;
       height: auto;
-      margin-top: 10%;
+      margin-top: 3%;
     }
     iframe{
         height:315px;
@@ -39,6 +39,7 @@
     }
     .heading{
         font-size:1rem;
+        text-align: left;
         
     }
     .content p{
@@ -69,9 +70,11 @@
         font-size: 1.4rem;
     }
     .contact-item span{
-        font-size: 1.4rem;
-        text-align: justify;
+        font-size: 1.1rem;
+        text-align: left;
         padding-bottom: 2%;
+        font-family: Roboto;
+        font-weight: bold;
     }
     .social-media {
       /* Display social media icons without text */
@@ -79,18 +82,18 @@
       justify-content: space-evenly;
       align-items: center;
       /* border: 1px solid red; */
-      width: 100%;
+      width: 50%;
     }
     .social-media i{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
    button{
     padding: 8px 12px;
     font-size: 1.2rem;
-    margin-top: 10%;
+    /* margin-top: 5%; */
     border: 1px solid gray;
     border-radius: 12px;
-    background-color: black;
+    background-color: rgb(39, 39, 243);
     color: white;
   
    }
@@ -107,21 +110,21 @@
         margin: 10%;
       }
       .under-development-container img{
-          width: 100%;
+          width: 30%;
          
           
       }
       .aboutGks{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         font-family: Roboto;
         font-weight: bold;
-        text-align: justify;
+        text-align: left;
       }
       .youtube-video {
         /* Set the video height accordingly */
         width: 100%;
         height: auto;
-        margin-top: 10%;
+        margin-top: 2%;
       }
       iframe{
         height:415px;
@@ -132,38 +135,47 @@
         padding: 10px;
       }
       .heading{
-          font-size:2.5rem;
+          font-size:1.2rem;
           font-family: Roboto;
           
       }
       .description{
-          font-size: 1.5rem;
+          font-size: 1.2rem;
       }
       .footer {
         /* Align everything vertically */
         display: flex;
         flex-direction: column;
         align-items: center;
+        
       }
       .contact-details {
         /* Style contact details vertically */
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+        /* border: 1px solid red; */
+        width: 110%;
+
+        
       }
       .contact-item {
         /* Add spacing between contact items */
         margin: 10px 0;
         display: flex;
         justify-items: center;
-        gap: 10%;
+        gap: 5%;
+        
         
       }
       .contact-item i{
           font-size: 1.8rem;
-          padding-bottom: 2%;
+          /* padding-bottom: 2%; */
       }
       .contact-item span{
           font-size: 1.4rem;
+          font-family: Roboto;
+          font-weight: bold;
+          /* border: 1px solid black; */
       }
       .social-media {
         /* Display social media icons without text */
@@ -172,17 +184,17 @@
         align-items: center;
         /* border: 1px solid red; */
         width: 100%;
-        gap: 30px;
+        gap: 10px;
       }
       .social-media i{
-          font-size: 2.5rem;
+          font-size: 2rem;
          
       }
     
      button{
       padding: 12px 12px;
       font-size: 1.2rem;
-      margin-top: 10%;
+      margin-top: 5%;
       border: 1px solid gray;
       border-radius: 12px;
       background-color: rgb(39, 39, 243);
@@ -196,6 +208,9 @@
         cursor: pointer;
         /* border: 2px solid black; */
      }
-    
+    .address{
+      text-align: justify;
+      
+    }
   }
   

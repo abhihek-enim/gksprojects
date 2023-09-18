@@ -21,28 +21,29 @@ const UnderDevelopment = () => {
                   src="https://www.youtube.com/embed/gMNl5lgj99w" title="GKS Introduction video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <div className="content">
-        <h1 className="heading">This website is under development and shall be live shortly. 
-</h1>
-        <p className="description">
-          Please reach out to us via the below mentioned means:
-        </p>
+        <h1 className="heading">This website is under development and <br /> shall be live shortly. 
+        </h1>
+        <button className='downloadBtn' onClick={handleDownload}>Download Company Profile</button>
+        {/* <p className="description">
+          Connect:
+        </p> */}
       </div>
       <div className="footer">
         <div className="contact-details">
           {/* Phone number with phone icon */}
           <div className="contact-item">
-            <i style={{color:'blue'}} className="fas fa-phone"></i>
+            <i  className="fas fa-phone"></i>
             <span>93196-63620</span>
           </div>
           {/* Email address with mail icon */}
           <div className="contact-item">
-            <i style={{color:'rgb(240, 85, 24)'}} className="fas fa-envelope"></i>
+            <i  className="fas fa-envelope"></i>
             <span>info@gksproject.com</span>
           </div>
           {/* Location with location icon */}
           <div className="contact-item">
-            <i style={{color:'orange'}} className="fas fa-map-marker-alt"></i>
-            <span>31/231/1-2, Shamshabad Road, Maruti City Turn, Kahrai Mode, Near TV Tower, Taj Ganj Zone, Agra- 282001</span>
+            <i className="fas fa-map-marker-alt"></i>
+            <span className='address'>31/231/1-2, Shamshabad Road, Maruti City Turn, <br />Kahrai Mode,  Near TV Tower, Taj Ganj Zone, Agra- 282001</span>
           </div>
         </div>
         <div className="social-media">
@@ -56,12 +57,10 @@ const UnderDevelopment = () => {
           <a href="https://www.linkedin.com/company/gksprojectsandevents/">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://www.twitter.com">
-            <i className="fab fa-twitter"></i>
-          </a>
+         
         </div>
         {/* Download Company Profile button */}
-              <button className='downloadBtn' onClick={handleDownload}>Download Company Profile</button>
+              
       </div>
     </div>
   );

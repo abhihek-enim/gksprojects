@@ -47,13 +47,13 @@ const UnderDevelopment = () => {
         <div className="social-media">
           {/* Social media icons with links */}
           <a href="https://www.facebook.com/GKSprojectsandevents?mibextid=nW3QTL">
-            <i className="fab fa-facebook"></i>
+            <i style={{color:'RGB(24, 119, 242)'}} className="fab fa-facebook"></i>
           </a>
           <a href="https://instagram.com/gksprojectsandevents">
-            <i className="fab fa-instagram"></i>
+            <i style={{color:" #E1306C"}} className="fab fa-instagram"></i>
           </a>
           <a href="https://www.linkedin.com/company/gksprojectsandevents/">
-            <i className="fab fa-linkedin"></i>
+            <i  className="fab fa-linkedin"></i>
           </a>
          
         </div>

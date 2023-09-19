@@ -1,4 +1,4 @@
-import Logo from "./Images/gksLogonew.png";
+import Logo from "./Images/gkslogoFinal.png";
 import Slider1 from "./Images/slider1.png";
 import Slider2 from "./Images/slider2.png";
 import Slider3 from "./Images/slider3.png";

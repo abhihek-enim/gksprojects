@@ -36,7 +36,7 @@ const UnderDevelopment = () => {
           {/* Email address with mail icon */}
           <div className="contact-item">
             <i  className="fas fa-envelope"></i>
-            <span>info@gksproject.com</span>
+            <span>info@gksprojects.com</span>
           </div>
           {/* Location with location icon */}
           <div className="contact-item">
@@ -50,7 +50,7 @@ const UnderDevelopment = () => {
             <i style={{color:'RGB(24, 119, 242)'}} className="fab fa-facebook"></i>
           </a>
           <a href="https://instagram.com/gksprojectsandevents">
-            <i style={{color:" #E1306C"}} className="fab fa-instagram"></i>
+            <i style={{color:"#E1306C"}} className="fab fa-instagram"></i>
           </a>
           <a href="https://www.linkedin.com/company/gksprojectsandevents/">
             <i  className="fab fa-linkedin"></i>

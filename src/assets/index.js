@@ -5,5 +5,5 @@ import Slider3 from "./Images/slider3.png";
 import Slider4 from "./Images/slider4.png";
 import Slider5 from "./Images/slider5.png";
 
-
+// https://www.gksprojects.com/  
 export { Logo, Slider1, Slider2, Slider3, Slider4, Slider5 };
